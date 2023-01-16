@@ -1,0 +1,11 @@
+import 'dart:io';
+
+import 'package:dart_application_11/dart_application_11.dart'
+    as dart_application_11;
+
+void main(List<String> arguments) {
+  print('Hello world');
+  String name = stdin.readLineSync()!;
+  int age = int.parse(stdin.readLineSync()!);
+  print('my name is$name' 'age is $age');
+}
